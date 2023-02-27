@@ -31,7 +31,7 @@ $request = [
 ];
 
 //RESPOSTA DA REQUISIÇÃO DE CRIAÇÃO
-$response = $obApiPix->createCob('ADVFW1234123412340000000000',$request);
+$response = $obApiPix->createCob('ADVFW1234123412340000000004',$request);
 
 //VERIFICA A EXISTÊNCIA DO ITEM 'LOCATION'
 if(!isset($response['location'])){
